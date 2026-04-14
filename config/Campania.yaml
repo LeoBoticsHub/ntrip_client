@@ -1,0 +1,32 @@
+# config/Campania.yaml
+ntrip_client:
+  ros__parameters:
+    # --- Connection ---
+    host: "109.115.186.34"
+    port: 2101
+    mountpoint: "VRS3"
+    ntrip_version: "None"
+
+    # --- Authentication ---
+    authenticate: true
+    username: "Campania"
+    password: "GNSS"
+
+    # --- SSL ---
+    ssl: false
+    cert: "None"
+    key: "None"
+    ca_cert: "None"
+
+    # --- RTCM ---
+    rtcm_message_package: "rtcm_msgs"
+    rtcm_frame_id: "odom"
+
+    # --- NMEA ---
+    nmea_max_length: 128
+    nmea_min_length: 3
+
+    # --- Reconnect ---
+    reconnect_attempt_max: 10
+    reconnect_attempt_wait_seconds: 5
+    rtcm_timeout_seconds: 4
