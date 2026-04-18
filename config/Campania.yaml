@@ -4,7 +4,7 @@ ntrip_client:
     # --- Connection ---
     host: "109.115.186.34"
     port: 2101
-    mountpoint: "VRS3"
+    mountpoint: "1_VRS30"
     ntrip_version: "None"
 
     # --- Authentication ---
