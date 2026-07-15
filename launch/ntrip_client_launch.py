@@ -55,6 +55,9 @@ def launch_setup(context, *args, **kwargs):
     # remappings=[
     #     ('nmea', '/gx5/nmea/sentence')
     # ],
+    remappings=[
+        ('fix', '/ublox_gps_node/fix'),
+    ],
   )
   
   return [
